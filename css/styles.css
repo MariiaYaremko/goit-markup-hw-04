@@ -161,7 +161,7 @@ ul {
     to right,
      rgba(196, 196, 196, 1)
      rgba(47, 48, 58, 0.4)), */
-   url("./images/img_overlay");
+   url("../images/img_overlay.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
