@@ -373,6 +373,14 @@ ul {
 }
 /* clients section */
 
+.clients-container .title {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .clients-list-item {
   display: flex;
   justify-content: center;
@@ -380,6 +388,14 @@ ul {
   height: 92px;
   margin-top: 30px;
   margin-left: 30px;
+}
+.client-icon {
+  display: block;
+  width: 106px;
+  height: 60px;
+}
+.light-theme-icon {
+  fill: var(--accent-color)
 }
 
 /* footer */
@@ -475,51 +491,6 @@ ul {
   border-radius: 4px;
   height: 38px; 
 }
-/* .select .filter */
-/* .select-button {
-  color: var(--secondary-text-color);
-  font-weight: 400;
-  font-size: 16;
-  line-height: 1.88;
-  text-align: center;
-  padding-left: 22px;
-  padding-right: 22px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  margin-right: 8px;
-  border: 1px solid var(--third-bg-color);
-  background-color: var(--third-bg-color);
-  border-radius: 4px;
-} */
-/* .select-button .link {
-  font-weight: 400;
-  font-size: 16;
-  line-height: 1.88;
-  text-align: center;   
-  padding-left: 22px;
-  /* padding-right: 22px; */
-  /* padding-top: 6px; */
-  /* padding-bottom: 6px; */
-  /* margin-right: 8px;
-  border: 1px solid var(--third-bg-color);
-  background-color: var(--third-bg-color);
-  border-width: 0px;
-  border-radius: 4px;
-} */ 
-  /* button:hover {
-  background-color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  color: var(--primary-white-color);
-  height: 38px;
-  padding: 6px, 22px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-right: 8px;
-} */
 
 .links {
   display: flex;
@@ -532,8 +503,8 @@ ul {
   flex-wrap: wrap;
   padding-left: 0px;
  }
- .item: nth-child (3n) {
-  margin-right: 0px;
+ .item:nth-child (3n) {
+  margin-right: 0px
 } 
 .cards .item {
   width: calc ((100%-60)/3);
@@ -578,8 +549,4 @@ ul {
 .button-spr {
   padding: 0;
   border: none;
-}
-.button-icon {
-  width: 100px;
-  height: 100px;
 }
