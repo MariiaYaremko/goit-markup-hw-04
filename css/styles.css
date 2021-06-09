@@ -394,9 +394,25 @@ ul {
   width: 106px;
   height: 60px;
 }
-.light-theme-icon {
-  fill: var(--accent-color)
+.clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
+.clients-list-link:hover,
+.clients-list-link:focus {
+  color: var(--primary-white-color) 
+}
+
+/* .light-theme-icon {
+  fill: var(--accent-color)
+} */
 
 /* footer */
 .footer-space {
