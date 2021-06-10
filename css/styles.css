@@ -372,16 +372,27 @@ ul {
   fill: currentColor;
 }
 /* clients section */
-
+.clients-container {
+  padding-top: 94px;
+  padding-bottom: 94px
+}
 .clients-container .title {
   font-weight: 700px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-}
+  margin-top: 0px;
+  margin-bottom: 20px;
+  }
 
 .clients-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+.clients-list-item {
   display: flex;
   justify-content: center;
   flex-basis: calc ((100%-180px)/6);
@@ -453,6 +464,25 @@ ul {
   font-style: normal;
   text-decoration: none;
 }
+.footer-space .container {
+display: flex;
+align-items: baseline;
+}
+.footer-social {
+  margin-left: 70px;
+}
+.social-list-title {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+}
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+}
+
 /* portfolio */
 .select {
   display: flex;
