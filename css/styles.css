@@ -381,7 +381,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.clients-list-item {
+.clients-list {
   display: flex;
   justify-content: center;
   flex-basis: calc ((100%-180px)/6);
@@ -403,7 +403,8 @@ ul {
 }
 .clients-list-link:hover,
 .clients-list-link:focus {
-  color: var(--accent-color) 
+  color: var(--accent-color);
+  border-color:var(--accent-color)
 }
 .client-icon {
   /* display: block; */
