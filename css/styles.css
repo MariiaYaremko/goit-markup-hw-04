@@ -217,6 +217,7 @@ ul {
 .feature-list {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
   display: flex;
   justify-content: space-between;
   width: 1170px;
@@ -402,8 +403,9 @@ ul {
 .clients-list {
   display: flex;
   justify-content: center;
-  margin-top: 0px;
+  /* margin-top: 0px; */
   margin-bottom: 0px;
+  padding-left: 0px;
   }
 .clients-list-item {
   display: flex;
