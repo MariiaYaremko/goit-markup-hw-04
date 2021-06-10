@@ -481,6 +481,7 @@ color: var(--primary-white-color);
 .footer-social-list {
   display: flex;
   justify-content: center;
+  padding-left: 0px;
 }
 
 /* portfolio */
@@ -599,4 +600,19 @@ color: var(--primary-white-color);
 .button-spr {
   padding: 0;
   border: none;
+}
+.button-spr-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--primary-white-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+.button-spr-bottom:hover,
+.button-spr-bottom:focus{
+  background: var(--accent-color);
+  color: var(--primary-white-color);
 }
